@@ -1,32 +1,4 @@
 #!/usr/bin/env bash
-#
-# leitorLog.sh - Realiza a leitura e busca de padrões em arquivos de log
-#
-# Autor:      Leonardo N.D.
-# Manutenção: Leonardo N.D.
-#
-# ------------------------------------------------------------------------ #
-#  Este programa realiza a leitura de arquivos de log, permitindo buscar
-#  padrões específicos e salvar os resultados em um arquivo de saída opcional.
-#
-#  Exemplos:
-#      $ ./leitorLog.sh -f syslog.log -p "ERROR" -o resultado.txt
-#      Neste exemplo, o script busca pelo padrão "ERROR" no arquivo syslog.log
-#      e salva os resultados em "resultado.txt".
-# ------------------------------------------------------------------------ #
-# Histórico:
-#
-#   v1.0 11/11/2024, Leonardo N.D.:
-#       - Início do programa
-#       - Implementação das funcionalidades principais
-#   v1.1 11/11/2024, LeonardoN.D.:
-#       - Adicionada a função de debug com a opção -d
-#   v1.2 11/11/2024, Leonardo N.D.:
-#       - Adicionadas variáveis para cores (azul e vermelho) para mensagens
-# ------------------------------------------------------------------------ #
-# Testado em:
-#   bash 5.0.17
-# ------------------------------------------------------------------------ #
 
 # ------------------------------- VARIÁVEIS ----------------------------------------- #
 arquivo=""
