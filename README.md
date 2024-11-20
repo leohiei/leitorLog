@@ -1,7 +1,7 @@
 # Leitor de Logs - leitorLog.sh
 
 ## Descrição
-`leitorLog.sh` é um script Bash que permite realizar a leitura de arquivos de log, buscar padrões específicos e salvar os resultados em um arquivo de saída opcional.
+`leitorLog.sh` é um Shell script que permite realizar a leitura de arquivos de log, buscar padrões específicos e salvar os resultados em um arquivo de saída opcional.
 
 ## Funcionalidades
 - Busca de padrões definidos pelo usuário em arquivos de log.
